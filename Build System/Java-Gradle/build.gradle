@@ -1,0 +1,3 @@
+dependencies{
+    compile 'io.prometheus.client.examples:guice:0.0.6'
+}
