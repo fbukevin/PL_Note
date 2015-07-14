@@ -1,5 +1,7 @@
 # IntelliJ
 
+https://docs.gradle.org/current/userguide/
+
 ## 建立專案
 1. 選擇 Gradle
 ![](1.png)
@@ -35,3 +37,16 @@ Dependency 中
 `group: 'com.zaxxer', name: 'HikariCP', version: '2.3.9'` 
 
 相同
+
+## 查看哪些 task 可用
+![](3.png)
+
+## run task
+Gradle 預設沒有 run
+
+可以透過加入 `apply plugin: 'application'` 到 build.gradle 中就有了
+
+![](10.png)
+
+要成功執行，還要指定 mainClass
+![](11.png)
