@@ -29,6 +29,13 @@ gulp 比較像是 gradle, gulpfile.js 也是 task based：
 
 ![](gulp_sample.png)
 
+# 工作流程
+1. `mkdir project-name`  
+2. `cd project-name; yo`
+3. `npm install --save-dev gulp`
+4. `vim anything` 
+5. `gulp <task>`
+
 ## Plugins
 
 gulp 有一個很強大的優點是可以透過安裝許多綁定 gulp 的外掛模組來執行這些模組的任務：[http://gulpjs.com/plugins/](http://gulpjs.com/plugins/)
