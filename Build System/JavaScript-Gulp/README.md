@@ -27,6 +27,7 @@ gulp 比較像是 gradle, gulpfile.js 也是 task based：
   * `gulp`：run default
   * `gulp <task> <other task>`：run individual tasks
 
+![](gulp_sample.png)
 
 ## Plugins
 
